@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}My Orders — ShopSite{% endblock %}
+{% block content %}
+<h2 class="mb-4">My Orders</h2>
+{% if orders %}
+  {% for order in orders %}
+    <div class="card shadow-sm mb-3">
+      <div class="card-header d-flex justify-content-between">
+        <strong>Order #{{ order.pk }}</strong>
+        <span class="badge bg-{% if order.status == 'delivered' %}success{% elif order.status == 'cancelled' %}danger{% else %}primary{% endif %}">
+          {{ order.get_status_display }}
+        </span>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-8">
+            {% for item in order.items.all %}
+              <div class="small">{{ item.product_name }} × {{ item.quantity }} — ${{ item.subtotal }}</div>
+            {% endfor %}
+          </div>
+          <div class="col-md-4 text-md-end">
+            <strong class="fs-5">${{ order.total }}</strong><br>
+            <small class="text-muted">{{ order.created_at|date:"N j, Y" }}</small>
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% else %}
+  <div class="text-center py-5 text-muted">
+    <i class="bi bi-bag-x" style="font-size:4rem"></i>
+    <p class="mt-2">You haven't placed any orders yet.</p>
+    <a href="{% url 'store:product_list' %}" class="btn btn-primary">Start Shopping</a>
+  </div>
+{% endif %}
+{% endblock %}
