@@ -1,0 +1,16 @@
+# ──────────────────────────────────────────────────────────
+# N-Queens Solver — Python Dependencies
+# ──────────────────────────────────────────────────────────
+# Install with:   pip install -r requirements.txt
+# Python version: 3.11+
+# ──────────────────────────────────────────────────────────
+
+# UI framework
+streamlit>=1.35.0
+
+# Testing
+pytest>=8.2.0
+pytest-cov>=5.0.0       # optional: coverage reports
+
+# Type checking (optional, for development)
+mypy>=1.10.0
