@@ -1,0 +1,25 @@
+# Codveda Technologies - Level 2 Task 2: Data Scraper Web Application
+# Requirements File
+# Install with: pip install -r requirements.txt
+
+# Web Framework
+streamlit==1.31.0
+
+# HTTP Client
+requests==2.31.0
+
+# HTML Parsing
+beautifulsoup4==4.12.3
+lxml==5.1.0
+
+# Data Handling
+pandas==2.2.0
+
+# Excel Export (optional but recommended)
+openpyxl==3.1.2
+
+# Environment Variables (optional)
+python-dotenv==1.0.1
+
+# Additional Utilities
+urllib3==2.2.0
