@@ -1,0 +1,13 @@
+Welcome to Codveda Technologies internship program.
+
+This is a sample text file created for the Word Counter project.
+The program will read this file, split the content into individual words,
+and display the total word count as output.
+
+Python is a beginner-friendly programming language.
+It is widely used in data science, web development, and automation.
+
+Learning Python is the first step toward becoming a professional developer.
+Practice every day and you will improve steadily.
+
+Good luck with your internship!
