@@ -1,0 +1,268 @@
+================================================================================
+                    TODO LIST APPLICATION SAMPLE OUTPUT
+                    Codveda Technologies - Internship Project
+================================================================================
+
+🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+   Welcome to To-Do List Application!
+🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉🎉
+
+==================================================
+ TODO LIST APPLICATION
+   Codveda Technologies - Internship Project
+==================================================
+
+1. ➕ Add Task
+2. 📋 View Tasks
+3. ✅ Mark Task as Completed
+4. 🗑️  Delete Task
+5. 🚪 Exit
+==================================================
+
+Enter your choice (1-5): 1
+
+==================================================
+📝 ADD NEW TASK
+==================================================
+Enter task description: Complete Python internship project
+
+✅ Success: Task 'Complete Python internship project' added successfully!
+
+==================================================
+ TODO LIST APPLICATION
+   Codveda Technologies - Internship Project
+==================================================
+
+1. ➕ Add Task
+2. 📋 View Tasks
+3. ✅ Mark Task as Completed
+4. 🗑️  Delete Task
+5. 🚪 Exit
+==================================================
+
+Enter your choice (1-5): 1
+
+==================================================
+📝 ADD NEW TASK
+==================================================
+Enter task description: Review code with mentor
+
+✅ Success: Task 'Review code with mentor' added successfully!
+
+==================================================
+ TODO LIST APPLICATION
+   Codveda Technologies - Internship Project
+==================================================
+
+1. ➕ Add Task
+2. 📋 View Tasks
+3. ✅ Mark Task as Completed
+4. 🗑️  Delete Task
+5.  Exit
+==================================================
+
+Enter your choice (1-5): 1
+
+==================================================
+📝 ADD NEW TASK
+==================================================
+Enter task description: Submit final report
+
+✅ Success: Task 'Submit final report' added successfully!
+
+==================================================
+ TODO LIST APPLICATION
+   Codveda Technologies - Internship Project
+==================================================
+
+1. ➕ Add Task
+2. 📋 View Tasks
+3. ✅ Mark Task as Completed
+4. 🗑️  Delete Task
+5. 🚪 Exit
+==================================================
+
+Enter your choice (1-5): 2
+
+==================================================
+📋 YOUR TASKS
+==================================================
+
+ Statistics: Total: 3 | Completed: 0 | Pending: 3
+--------------------------------------------------
+1. [○] Complete Python internship project
+   Status: Pending | Created: 2026-01-15 10:30:00
+2. [○] Review code with mentor
+   Status: Pending | Created: 2026-01-15 10:35:00
+3. [○] Submit final report
+   Status: Pending | Created: 2026-01-15 10:40:00
+--------------------------------------------------
+
+==================================================
+ TODO LIST APPLICATION
+   Codveda Technologies - Internship Project
+==================================================
+
+1. ➕ Add Task
+2. 📋 View Tasks
+3. ✅ Mark Task as Completed
+4. 🗑️  Delete Task
+5.  Exit
+==================================================
+
+Enter your choice (1-5): 3
+
+==================================================
+✅ MARK TASK AS COMPLETED
+==================================================
+
+==================================================
+ YOUR TASKS
+==================================================
+
+ Statistics: Total: 3 | Completed: 0 | Pending: 3
+--------------------------------------------------
+1. [○] Complete Python internship project
+   Status: Pending | Created: 2026-01-15 10:30:00
+2. [○] Review code with mentor
+   Status: Pending | Created: 2026-01-15 10:35:00
+3. [○] Submit final report
+   Status: Pending | Created: 2026-01-15 10:40:00
+--------------------------------------------------
+
+Enter task number to mark as completed: 1
+
+✅ Success: Task 'Complete Python internship project' marked as completed!
+
+==================================================
+ TODO LIST APPLICATION
+   Codveda Technologies - Internship Project
+==================================================
+
+1. ➕ Add Task
+2. 📋 View Tasks
+3. ✅ Mark Task as Completed
+4. 🗑️  Delete Task
+5.  Exit
+==================================================
+
+Enter your choice (1-5): 2
+
+==================================================
+📋 YOUR TASKS
+==================================================
+
+ Statistics: Total: 3 | Completed: 1 | Pending: 2
+--------------------------------------------------
+1. [✓] Complete Python internship project
+   Status: Completed | Created: 2026-01-15 10:30:00
+2. [○] Review code with mentor
+   Status: Pending | Created: 2026-01-15 10:35:00
+3. [○] Submit final report
+   Status: Pending | Created: 2026-01-15 10:40:00
+--------------------------------------------------
+
+==================================================
+ TODO LIST APPLICATION
+   Codveda Technologies - Internship Project
+==================================================
+
+1. ➕ Add Task
+2. 📋 View Tasks
+3. ✅ Mark Task as Completed
+4. 🗑️  Delete Task
+5. 🚪 Exit
+==================================================
+
+Enter your choice (1-5): 4
+
+==================================================
+🗑️  DELETE TASK
+==================================================
+
+==================================================
+📋 YOUR TASKS
+==================================================
+
+ Statistics: Total: 3 | Completed: 1 | Pending: 2
+--------------------------------------------------
+1. [✓] Complete Python internship project
+   Status: Completed | Created: 2026-01-15 10:30:00
+2. [○] Review code with mentor
+   Status: Pending | Created: 2026-01-15 10:35:00
+3. [○] Submit final report
+   Status: Pending | Created: 2026-01-15 10:40:00
+--------------------------------------------------
+
+Enter task number to delete: 3
+Are you sure you want to delete 'Submit final report'? (y/n): y
+
+✅ Success: Task 'Submit final report' deleted successfully!
+
+==================================================
+ TODO LIST APPLICATION
+   Codveda Technologies - Internship Project
+==================================================
+
+1. ➕ Add Task
+2. 📋 View Tasks
+3. ✅ Mark Task as Completed
+4. 🗑️  Delete Task
+5.  Exit
+==================================================
+
+Enter your choice (1-5): 5
+
+==================================================
+👋 Thank you for using To-Do List Application!
+   See you next time!
+==================================================
+
+
+================================================================================
+                         ERROR HANDLING EXAMPLES
+================================================================================
+
+EXAMPLE 1: Invalid Menu Choice
+------------------------------
+Enter your choice (1-5): 7
+
+❌ Error: Invalid choice. Please enter a number between 1-5.
+
+
+EXAMPLE 2: Empty Task Input
+---------------------------
+Enter task description: 
+
+❌ Error: Task description cannot be empty!
+
+
+EXAMPLE 3: Invalid Task Number
+------------------------------
+Enter task number to delete: 10
+
+❌ Error: Invalid task number. Please enter 1-3.
+
+
+EXAMPLE 4: Non-Numeric Input
+----------------------------
+Enter task number to mark as completed: abc
+
+❌ Error: Please enter a valid number.
+
+
+EXAMPLE 5: Already Completed Task
+---------------------------------
+Enter task number to mark as completed: 1
+
+⚠️  This task is already marked as completed!
+
+
+EXAMPLE 6: Deletion Cancelled
+-----------------------------
+Are you sure you want to delete 'Review code with mentor'? (y/n): n
+
+⚠️  Deletion cancelled.
+
+
+================================================================================
