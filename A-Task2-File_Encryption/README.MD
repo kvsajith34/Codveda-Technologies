@@ -202,17 +202,7 @@ python file_encryptor.py
 
 ## 👤 Author
 
-**Your Name**
-Intern @ [Codveda Technology](https://codveda.com)
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://linkedin.com/in/your-linkedin)
-
----
-
-## 📄 License
-
-This project is submitted as part of the **Codveda Technology Python Internship Program**.
-Free to use for educational purposes.
+**KVS Ajith**
 
 ---
 
