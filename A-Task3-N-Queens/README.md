@@ -52,7 +52,7 @@ n-queens/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<kvsajith34>/Codveda -Technologies.git
+git clone https://github.com/kvsajith34/Codveda -Technologies.git
 cd A-Task3-N-Queens
 ```
 
