@@ -57,8 +57,8 @@ Both modes include **HMAC integrity checking** — wrong passwords and corrupted
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/codveda-internship.git
-cd codveda-internship/level3-task2
+git clone https://github.com/kvsajith34/Codveda-Technologies.git
+cd A-Task2-File_Encryption
 ```
 
 ### 2. (Recommended) Install the cryptography library
