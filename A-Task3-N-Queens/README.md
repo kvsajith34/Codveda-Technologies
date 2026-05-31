@@ -1,7 +1,5 @@
 # ♛ N-Queens Solver
 
-**Codveda Technologies Internship — Level 3 · Task 3**
-
 A production-quality implementation of the classic **N-Queens Problem** built with Python 3.11, a pure-Python backtracking solver, and an interactive [Streamlit](https://streamlit.io) UI.
 
 ---
@@ -263,10 +261,9 @@ This project is licensed under the MIT License.
 
 ## 🎓 Acknowledgements
 
-- **Codveda Technologies** — for the internship opportunity and project brief
 - [OEIS A000170](https://oeis.org/A000170) — N-Queens solution sequence
 - [Streamlit](https://streamlit.io) — for the excellent Python UI framework
 
 ---
 
-*Built with ♛ and Python 3.11 as part of the Codveda Technologies internship programme.*
+*Built with Python 3.11 .*
