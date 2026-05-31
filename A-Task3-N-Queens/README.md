@@ -52,8 +52,8 @@ n-queens/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/n-queens-solver.git
-cd n-queens-solver
+git clone https://github.com/<kvsajith34>/Codveda -Technologies.git
+cd A-Task3-N-Queens
 ```
 
 ### 2. Create a Virtual Environment
