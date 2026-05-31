@@ -22,8 +22,6 @@ A beginner-friendly, terminal-based Python game where the computer secretly pick
 
 ## 📖 About the Project
 
-This project is **Task 2 of Level 1 (Basic)** from the Codveda Technologies Python Internship program.
-
 The game uses Python's built-in `random` module to generate a secret number between **1 and 100**. The player is given up to **10 attempts** to guess the number. After each guess, the program provides clear directional feedback. The game ends when the player guesses correctly or exhausts all attempts, and a **replay option** is offered at the end of every round.
 
 ---
@@ -69,7 +67,7 @@ python --version
 **Step 1 — Clone or download the project folder**
 
 ```bash
-git clone https://github.com/your-username/B-Task2-Number_Guess.git
+git clone https://github.com/kvsajith34/Codveda-Technologies.git
 ```
 
 Or simply download `number_guessing_game.py` directly.
