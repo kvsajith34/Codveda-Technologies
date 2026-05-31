@@ -61,7 +61,7 @@ A professional, production-ready web scraping application built with Python and 
 ---
 
 ## 📁 Project Structure
-
+```
 I-Task2-web-data-scraper/
 ├── app.py                  # Main Streamlit application (Web UI)
 ├── scraper.py              # Core scraping engine (class-based)
@@ -77,7 +77,7 @@ I-Task2-web-data-scraper/
 ├── output/                 # Exported data files (auto-created)
 │   └── .gitkeep
 └── scraping_history.json   # Session history (auto-created)
-
+```
 ---
 
 ## 📥 Installation
