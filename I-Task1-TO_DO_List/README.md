@@ -49,8 +49,8 @@ todo_list_project/
 
 1. **Clone or download the project:**
    ```bash
-   git clone <repository-url>
-   cd todo_list_project
+   git clone https://github.com/kvsajith34/Codveda-Technologies.git
+   cd I-Task1-TO_DO_List
    ```
 
 2. **Run the application:**
@@ -175,15 +175,9 @@ This project demonstrates:
 
 ---
 
-## 📄 License
-
-This project is created as part of the Codveda Technologies internship program.
-
----
-
 ## 👨‍💻 Author
 
 --KVS Ajith
-**Internship Project - Codveda Technologies**  
+  
 Built using Python
 
