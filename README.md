@@ -14,8 +14,6 @@
 
 ## 📌 Overview
 
-This repository contains all internship tasks completed as part of the **Codveda Technologies Python Development Internship**. The projects span three difficulty levels — Basic, Intermediate, and Advanced — and collectively demonstrate core Python programming, web development with Django, algorithmic problem-solving, file handling, automation, web scraping, and REST API integration.
-
 Each task folder is self-contained with its own source code and, where applicable, a `requirements.txt` file. The repository is organized to make navigation simple for reviewers, recruiters, and fellow learners.
 
 ---
